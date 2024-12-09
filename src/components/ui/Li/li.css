@@ -1,0 +1,10 @@
+.message-elem {
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1.5px solid gray;
+    border-radius: 15px;
+}
+
+.message-elem:not(:first-child) {
+    margin-bottom: 15px;
+}

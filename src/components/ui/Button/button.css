@@ -1,0 +1,63 @@
+.modal-btn-submit {
+    border: 1.5px solid gray;
+    color: gray;
+    font-size: 1.3rem;
+    padding: 10px;
+    max-width: 100px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 10px;
+}
+
+.modal-btn-submit:hover {
+    color: white;
+    background-color: gray;
+    border: 1.5px solid black;
+    transition: 1s;
+}
+
+.modal-btn-close {
+    border: 1.5px solid gray;
+    color: gray;
+    font-size: 1.3rem;
+    padding: 10px;
+    max-width: 100px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.modal-btn-close:hover {
+    color: white;
+    background-color: gray;
+    border: 1.5px solid black;
+    transition: 1s;
+}
+
+.btn-del-coors {
+    border: 1.5px solid gray;
+    color: gray;
+    font-size: 1rem;
+    padding: 10px;
+    max-width: 180px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 10px;
+}
+
+.btn-del-coors:hover {
+    color: white;
+    background-color: gray;
+    border: 1.5px solid black;
+    transition: 1s;
+}

@@ -1,0 +1,25 @@
+.timeline-message-input {
+    width: 80%;
+    border: 1.5px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 55px;
+    font-size: 1rem;
+}
+
+.timeline-message-input:focus {
+    outline: none;
+}
+
+.modal-input {
+    width: 100%;
+    border: 1.5px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 55px;
+    font-size: 1rem;
+}
+
+.modal-input:focus {
+    outline: none;
+}

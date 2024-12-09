@@ -1,0 +1,16 @@
+.message {
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.modal-text-up {
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.modal-text-down {
+    font-size: 1.3rem;
+    color: gray;
+    text-align: start;
+    width: 100%;
+}

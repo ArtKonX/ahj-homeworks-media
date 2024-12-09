@@ -1,0 +1,17 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-size: 50%;
+    margin: 0 auto;
+    position: absolute;
+    background-image: url("../img/background.jpg");
+}
+
+#app {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}

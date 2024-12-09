@@ -1,0 +1,15 @@
+.coordinates {
+    color: gray;
+    display: flex;
+    flex-direction: row;
+}
+
+.coordinates::after {
+    content: '';
+    background-image: url('../../../svg/eye-svgrepo-com.svg');
+    background-size: 20px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}

@@ -1,0 +1,9 @@
+.modal-title {
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 40px;
+    text-align: start;
+    width: 100%;
+}
