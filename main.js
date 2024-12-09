@@ -12,6 +12,9 @@ class TimelineState {
   get state() {
     return this._state;
   }
+  init() {
+    this.save();
+  }
   save() {
     localStorage.setItem("data", JSON.stringify(this.state));
   }
@@ -442,6 +445,7 @@ class Timeline {
     this.delCoors = this.delCoors.bind(this);
   }
   bindToDOM() {
+    this.timelineState.init();
     this.container = new Div({
       class: "container"
     }).element;
