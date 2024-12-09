@@ -18,6 +18,8 @@ export default class Timeline {
   }
 
   bindToDOM() {
+    this.timelineState.init();
+
     this.container = new Div({ class: "container" }).element;
     this.inputBtnDel = new Div({ class: "input-btn-del" }).element;
 

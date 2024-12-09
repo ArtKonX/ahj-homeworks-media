@@ -7,6 +7,10 @@ export default class TimelineState {
     return this._state;
   }
 
+  init() {
+    this.save();
+  }
+
   save() {
     localStorage.setItem("data", JSON.stringify(this.state));
   }
